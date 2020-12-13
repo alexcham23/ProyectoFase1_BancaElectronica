@@ -13,7 +13,7 @@
             <a href="#" class="logo">Banco El Ahorro</a>
             <nav class="navegacion">
                 <ul>
-                    <li><a href="EstadoCuenta">ESTADO DE CUENTA</a></li>
+                    <li><a href="{% url 'EstadoCuenta' %}">ESTADO DE CUENTA</a></li>
                     <li><a href="">PAGOS</a>
                         <ul>
                             <li><a href="#">PLANILLA O PROVEEDOR</a></li>
@@ -38,10 +38,12 @@
             </nav>
         </div>
     </header>
-    <div>
-        {% block content %}
-        {% endblock %}
-    </div>
+    <main class="main">
+        <div class="contenedor">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </main>
     <footer class="footer">
         <div class="container">
             <p>Desing By @JaimeArmira</p>

@@ -57,7 +57,6 @@ list-style: none;
     padding: 1.6rem;
     text-align: left;
     color: #fff;
-
 }
 .navegacion > li{
     float:left;
@@ -70,5 +69,25 @@ list-style: none;
 
 .navegacion li:hover > ul{
     display: inline-block;
-   
+}
+.contenedor {
+    width: 95%;
+    margin: 0 40px;
+}
+.main {
+    padding-top: 3rem;
+}
+hr.linea1 {
+    height: 2px;
+    border: 2px solid black;
+    border-radius: 18px;
+    background: linear-gradient(to left,blue,red);
+}
+.tl{
+    color:rgb(24, 172, 241);
+}
+.cuenta{
+    background-color:rgb(12, 185, 113);
+    color:rgb(0, 0, 0);
+    padding: 1rem;
 }
