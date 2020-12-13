@@ -9,18 +9,43 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a href="#" class="logo">Logo</a>
+        <div class="container logonav">
+            <a href="#" class="logo">Banco El Ahorro</a>
             <nav class="navegacion">
                 <ul>
-                    <li><a href="#">ESTADO DE CUENTA</a></li>
-                    <li><a href="#">PAGOS</a></li>
+                    <li><a href="EstadoCuenta">ESTADO DE CUENTA</a></li>
+                    <li><a href="">PAGOS</a>
+                        <ul>
+                            <li><a href="#">PLANILLA O PROVEEDOR</a></li>
+                            <li><a href="#">SERVICIO</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">PRESTAMOS</a></li>
-                    <li><a href="#">OPERACIONES ENTRE CUENTAS</a></li>
-                    <li><a href="#">PRE-AUTORIZACIÓN </a></li>
+                    <li><a href="#">OPERACIONES ENTRE CUENTAS</a>
+                    <ul>
+                        <li><a href="">TRANSACCIONES ENTRE CUENTAS PROPIAS</a></li>
+                        <li><a href="">TRANSACCIONES ENTRE CUENTAS DE TERCEROS</a></li>
+                        <li><a href="">SUSPENDER CUENTA</a></li>
+                        <li><a href="">REACTIVAR CUENTA</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">PRE-AUTORIZACIÓN </a>
+                    <ul>
+                        <li><a href="#">CHEQUES</a></li>
+                    </ul>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p>Desing By @JaimeArmira</p>
+        </div>
+    </footer>
 </body>
 </html>
