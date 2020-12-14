@@ -16,7 +16,7 @@
                     <li><a href="{% url 'EstadoCuenta' %}">ESTADO DE CUENTA</a></li>
                     <li><a href="">PAGOS</a>
                         <ul>
-                            <li><a href="#">PLANILLA O PROVEEDOR</a></li>
+                            <li><a href="{% url 'PlanillaProveedor' %}">PLANILLA O PROVEEDOR</a></li>
                             <li><a href="#">SERVICIO</a></li>
                         </ul>
                     </li>
@@ -24,7 +24,7 @@
                     <li><a href="#">OPERACIONES ENTRE CUENTAS</a>
                     <ul>
                         <li><a href="">TRANSACCIONES ENTRE CUENTAS PROPIAS</a></li>
-                        <li><a href="">TRANSACCIONES ENTRE CUENTAS DE TERCEROS</a></li>
+                        <li><a href="{% url 'tercero' %}">TRANSACCIONES ENTRE CUENTAS DE TERCEROS</a></li>
                         <li><a href="">SUSPENDER CUENTA</a></li>
                         <li><a href="">REACTIVAR CUENTA</a></li>
                     </ul>

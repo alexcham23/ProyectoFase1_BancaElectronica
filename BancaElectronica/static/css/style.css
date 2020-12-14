@@ -1,6 +1,6 @@
 body{
     font-family:georgia, Helvetica, sans-serif;
-    color:cadetblue;
+    color:rgb(43, 44, 44);
     font-size: 0.75rem;
     line-height: 1.8em;
     margin:0;
@@ -90,4 +90,7 @@ hr.linea1 {
     background-color:rgb(12, 185, 113);
     color:rgb(0, 0, 0);
     padding: 1rem;
+}
+.serv h3 {
+    color:#817f7f;
 }

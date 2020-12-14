@@ -6,4 +6,11 @@ def BancaPrincipal(request):
     
 def EstadoCuenta(request):
     return render(request,'Estado.html')
+
+def PlanillaProveedor(request):
+    return render(request,'Planpro.html')
+
+def Tercero(request):
+    return render(request,'Terceros.html')
+
     
