@@ -17,21 +17,21 @@
                     <li><a href="">PAGOS</a>
                         <ul>
                             <li><a href="{% url 'PlanillaProveedor' %}">PLANILLA O PROVEEDOR</a></li>
-                            <li><a href="#">SERVICIO</a></li>
+                            <li><a href="{% url 'servicio' %}">SERVICIO</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">PRESTAMOS</a></li>
-                    <li><a href="#">OPERACIONES ENTRE CUENTAS</a>
+                    <li><a href="{% url 'Prestamo' %}">PRESTAMOS</a></li>
+                    <li><a href="">OPERACIONES ENTRE CUENTAS</a>
                     <ul>
-                        <li><a href="">TRANSACCIONES ENTRE CUENTAS PROPIAS</a></li>
+                        <li><a href="{% url 'propios' %}">TRANSACCIONES ENTRE CUENTAS PROPIAS</a></li>
                         <li><a href="{% url 'tercero' %}">TRANSACCIONES ENTRE CUENTAS DE TERCEROS</a></li>
-                        <li><a href="">SUSPENDER CUENTA</a></li>
-                        <li><a href="">REACTIVAR CUENTA</a></li>
+                        <li><a href="{% url 'CuentaActiva' %}">SUSPENDER CUENTA</a></li>
+                        <li><a href="{% url 'CuentaSuspendida' %}">REACTIVAR CUENTA</a></li>
                     </ul>
                     </li>
-                    <li><a href="#">PRE-AUTORIZACIÓN </a>
+                    <li><a href="">PRE-AUTORIZACIÓN </a>
                     <ul>
-                        <li><a href="#">CHEQUES</a></li>
+                        <li><a href="{% url 'precheques' %}">CHEQUES</a></li>
                     </ul>
                     </li>
                 </ul>

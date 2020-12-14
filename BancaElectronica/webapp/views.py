@@ -13,4 +13,23 @@ def PlanillaProveedor(request):
 def Tercero(request):
     return render(request,'Terceros.html')
 
+def Locales(request):
+    return render(request,'Propias.html')
     
+def CuentaActiva(request):
+    return render(request,'suspender.html')
+
+def CuentaSuspendida(request):
+    return render(request,'Activar.html')
+
+def Servicio(request):
+    return render(request,'Servicios.html')
+
+def PreCheques(request):
+    return render(request,'ChequesPre.html')
+
+def Prestamo(request):
+    return render(request,'Prestamo.html')
+    
+def login(request):
+    return render(request,'index.html')
